@@ -1,0 +1,13 @@
+# Ignore Python environment folders
+trade_env/
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore large and temporary data
+data/raw/*.csv  # Only track structure, not the huge raw file
+data/processed/*.csv
+data/processed/*.db
+
+# Ignore configuration and personal files
+.DS_Store
+*.env
